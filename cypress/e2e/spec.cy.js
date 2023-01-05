@@ -2,7 +2,7 @@
 // https://on.cypress.io/intelligent-code-completion
 /// <reference types="cypress" />
 
-it('shows the tooltip', { scrollBehavior: 'center' }, () => {
+it('shows the tooltip', () => {
   cy.visit('/plausible.io')
   // find the element with "Bounce rate" text
   // and hover over it
